@@ -5,15 +5,15 @@ import { AddressForm } from './AddressForm'
 import { AccountForm } from './AccountForm' 
 
 type FormData = {
-  firstName: String,
-  lastName: String,
-  age: String,
-  street: String,
-  city: String,
-  state: String,
-  zip: String,
-  email: String,
-  password: String,
+  firstName: string,
+  lastName: string,
+  age: string,
+  street: string,
+  city: string,
+  state: string,
+  zip: string,
+  email: string,
+  password: string,
 }
 
 const INITIAL_DATA: FormData = {
